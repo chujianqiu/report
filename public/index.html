@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title></title>
+      <style>
+          a[title='站长统计']{
+              display: none;
+          }
+      </style>
+      <script>
+          var _hmt = _hmt || [];
+          (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?497e4aff431bcbaa23c68eedb381389c";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+          })();
+          (function(w, d, s, q, i) {
+              w[q] = w[q] || [];
+              var f = d.getElementsByTagName(s)[0],j = d.createElement(s);
+              j.async = true;
+              j.id = 'beacon-aplus';
+              j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'aplus_queue', '203467608');
+
+          //集成应用的appKey
+          aplus_queue.push({
+              action: 'aplus.setMetaInfo',
+              arguments: ['appKey', '61a6da18e014255fcb92c09d']
+          });
+      </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1280957916&web_id=1280957916"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

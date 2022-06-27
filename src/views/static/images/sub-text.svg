@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="45px" viewBox="0 0 232 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>智能风控 硕眼@3x</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="突发事件及大户舆情每日早报-new-03.23" transform="translate(-488.000000, -475.000000)">
+            <g id="智能风控-硕眼" transform="translate(488.000000, 475.000000)">
+                <text id="智能风控" font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#B3D1F9">
+                    <tspan x="0" y="34">智能风控</tspan>
+                </text>
+                <text id="硕眼" font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#B3D1F9">
+                    <tspan x="168" y="34">硕眼</tspan>
+                </text>
+                <g id="乘号" transform="translate(136.000000, 10.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M5.29300001,5.29300001 C5.68349986,4.90261808 6.31650014,4.90261808 6.70699999,5.29300001 L12,10.586 L17.293,5.29300001 C17.5440744,5.03304296 17.915878,4.9287866 18.2655077,5.02030198 C18.6151375,5.11181736 18.8881826,5.38486254 18.979698,5.73449226 C19.0712134,6.08412197 18.966957,6.45592562 18.707,6.70699999 L13.414,12 L18.707,17.293 C19.0859715,17.685379 19.0805513,18.3090843 18.6948178,18.6948178 C18.3090843,19.0805513 17.685379,19.0859715 17.293,18.707 L12,13.414 L6.70699999,18.707 C6.31462099,19.0859715 5.69091569,19.0805513 5.30518219,18.6948178 C4.91944868,18.3090843 4.91402851,17.685379 5.29300001,17.293 L10.586,12 L5.29300001,6.70699999 C4.90261808,6.31650014 4.90261808,5.68349986 5.29300001,5.29300001 Z" id="路径" fill="#FFBF3D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,95 @@
+@import "colors";
+
+@shadow-box:0 4px 12px 0 rgba(0,0,0,0.10);
+
+@bg-gray:#f8f9fb;
+@bg-white:#ffffff;
+
+.page-gray-content{
+  background-color: @bg-gray;
+}
+.page-white-content{
+  background-color: @bg-white;
+}
+//
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: @color-text-leval1;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,body{
+  min-height: 100%;
+}
+html{
+  background-color: @bg-gray;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+h1,.h1{
+  font-size: 28px;
+}
+h2,.h2{
+  font-size: 24px;
+}
+h3,.h3{
+  font-size: 22px;
+}
+h4,.h4{
+  font-size: 20px;
+}
+h5,.h5{
+  font-size: 18px;
+}
+h6,.h6{
+  font-size: 16px;
+}
+p {
+  margin: 0;
+  line-height: 1.6em;
+  padding: 8px 0;
+}
+.title-1{
+  font-size: 20px;
+  padding: 10px 0;
+}
+.primary-text{
+  color: @color-primary;
+}
+.warning-text{
+  color: @color-warning;
+}
+.danger-text{
+  color: @color-danger;
+}
+.des-text{
+  color: @color-text-leval4;
+  font-size: 12px;
+}
+.panel{
+  background-color: #ffffff;
+}
+.padding-container{
+  padding: 16px 16px 16px 26px;
+  height: 100%;
+  width: 100%;
+}
+.clear:after{
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+
